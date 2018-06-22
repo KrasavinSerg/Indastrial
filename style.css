@@ -129,6 +129,10 @@ p {
   transition: 0.5s;
 }
 
+.product__item--BEOPLAY:hover {
+  transform: scale(1.03);
+}
+
 .product__title--BEOPLAY {
   font-size: 48px;
   text-transform: uppercase;
@@ -163,6 +167,11 @@ p {
   min-height: 520px;
   background: url("img/photo.jpg") no-repeat center;
   margin-bottom: 40px;
+  transition: 0.5s;
+}
+
+.product__item--Leica:hover {
+  transform: scale(1.03);
 }
 
 .product__title--Leica {
@@ -201,7 +210,8 @@ p {
   perspective: 1000px;
 }
 
-.product__item-front--Molekule, .product__item-back--Molekule {
+.product__item-front--Molekule, 
+.product__item-back--Molekule {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -209,6 +219,11 @@ p {
   top: 0;
   transition: 1s;
   backface-visibility: hidden;
+}
+
+.product__item-back--Molekule p {
+  padding: 40px 15px 0 15px;
+  text-align: center;
 }
 
 .product__item-front--Molekule {
@@ -238,10 +253,6 @@ p {
   cursor: pointer;
 }
 
-/* .product__btn--Molekule:hover {
-  border: 3px solid #e5a867;
-} */
-
 .product__item-back--Molekule {
   background-color: rgb(247, 199, 128);
   transform: rotateY(180deg);
@@ -262,7 +273,8 @@ p {
   perspective: 1000px;
 }
 
-.product__item-front--Bowers, .product__item-back--Bowers {
+.product__item-front--Bowers, 
+.product__item-back--Bowers {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -270,6 +282,11 @@ p {
   top: 0;
   transition: 1s;
   backface-visibility: hidden;
+}
+
+.product__item-back--Bowers p {
+  padding: 40px 15px 0 15px;
+  text-align: center;
 }
 
 .product__item-front--Bowers {
@@ -299,10 +316,6 @@ p {
   cursor: pointer;
 }
 
-/* .product__btn--Bowers:hover {
-  border: 3px solid #e5a867;
-} */
-
 .product__item-back--Bowers {
   background-color: rgb(247, 199, 128);
   transform: rotateY(180deg);
@@ -323,7 +336,8 @@ p {
   perspective: 1000px;
 }
 
-.product__item-front--DR, .product__item-back--DR {
+.product__item-front--DR, 
+.product__item-back--DR {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -331,6 +345,11 @@ p {
   top: 0;
   transition: 1s;
   backface-visibility: hidden;
+}
+
+.product__item-back--DR p {
+  padding: 40px 15px 0 15px;
+  text-align: center;
 }
 
 .product__item-front--DR {
@@ -359,10 +378,6 @@ p {
   text-transform: uppercase;
   cursor: pointer;
 }
-
-/* .product__btn--DR:hover {
-  border: 3px solid #e5a867;
-} */
 
 .product__item-back--DR {
   background-color: rgb(247, 199, 128);
