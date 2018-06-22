@@ -1,2 +1,4 @@
 # Indastrial
-static https://krasavinserg.github.io/Industrial
+static 
+
+https://krasavinserg.github.io/Industrial
